@@ -1,16 +1,13 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+哈尔滨理工大学计算机在读学生
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+可以通过<a href="mailto:1014275196@qq.com"><font><font class="">电子邮件</font></font></a>联系我
 
-What else do you need?
+学无止境！
 
-### my history
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+### 关于网站
+感谢[Dean Attali](http://deanattali.com)  网站[源码](https://github.com/daattali/beautiful-jekyll#readme)
