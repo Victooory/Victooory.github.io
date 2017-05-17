@@ -4,7 +4,7 @@ title: 深入理解JVM笔记!
 ---
 
 ### 类加载的过程
-![过程](https://github.com/Victooory/victooory.github.io/tree/master/img/JVM1.png)
+![过程](https://github.com/Victooory/victooory.github.io/raw/master/img/JVM1.png)
 **装载**：查找并加载类的二进制数据 <br>
 **链接**：<br>
 1.**验证**：确保被加载类的正确性(安全考虑，编译器生成的class是符合JVM字节码的，但是防止非编译器生成的class文件) <br> 
@@ -13,7 +13,7 @@ title: 深入理解JVM笔记!
 **初始化**：为类的静态变量赋予正确的初始值
 
 ### java虚拟机在运行时数据在内存中的分区
-![分区](https://github.com/Victooory/victooory.github.io/tree/master/img/JVM2.png)
+![分区](https://github.com/Victooory/victooory.github.io/raw/master/img/JVM2.png)
 **程序计数器**：当前线程所执行字节码的行号指示器 <br>
 **java虚拟机栈**：Java方法执行的内存模型，方法的生命周期对应一个栈帧(存放局部变量表、操作数栈、动态链接、方法出口)在虚拟机栈中入栈到出栈的过程 </br>
 **本地方法栈**：和虚拟机栈相似，为虚拟机使用到的Native方法服务 <br>
