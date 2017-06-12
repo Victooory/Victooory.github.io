@@ -36,7 +36,7 @@ bigimg: /img/filescanning.png
 
     public void showDir(Directory directory) { // 先判断有无文件
 		try {
-			out = new PrintWriter(new FileOutputStream("C:\\zWork\\Workspaces\\jee\\test\\src\\result.txt"), true);
+			out = new PrintWriter(new FileOutputStream("result.txt"), true);
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		};
